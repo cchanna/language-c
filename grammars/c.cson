@@ -41,7 +41,7 @@
       '6':
         'name':
           'variable.c'
-    'match': '\\b([a-zA-Z][a-zA-Z0-9_]*)((\\s+\\*(\\)\\s*)?)|(\\s+))([a-zA-Z][a-zA-Z0-9_]*)(?![a-zA-Z0-9_]*\\()'
+    'match': '\\b([a-zA-Z][a-zA-Z0-9_]*)((\\s+\\**(\\)\\s*)?)|(\\s+))([a-zA-Z][a-zA-Z0-9_]*)(?![a-zA-Z0-9_]*\\()'
   }
   {
     'match': '\\b(asm|__asm__|auto|bool|_Bool|char|_Complex|double|enum|float|_Imaginary|int|long|short|signed|struct|typedef|union|unsigned|void)\\b'
